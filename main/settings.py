@@ -5,7 +5,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '33el*v@@)zi57r_q_1nrjta^tq6n&8hw(v1w(=)aiw#oe1p9dz'
 
-DEBUG = True
+DEBUG = False
 
 # SECURITY WARNING: make sure you update this to your websites URL
 ALLOWED_HOSTS = ['*']
