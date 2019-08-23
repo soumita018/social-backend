@@ -29,5 +29,5 @@ class Query(object):
         
     def resolve_profile(self,info,id=None):
         if id is not None:
-          return Profile.objects.filter(id=id)
+          return Profile.objects.filter(user__id=id)
         return Profile.objects.all()
